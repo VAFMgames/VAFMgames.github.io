@@ -1,41 +1,131 @@
-    body {
-      margin: 0;
-      font-family: 'Orbitron', sans-serif;
-      color: #ecf0f1;
-    }
+/* Général */
+body {
+  margin: 0;
+  font-family: 'Orbitron', sans-serif;
+  background-color: white;
+  color: #ecf0f1;
+}
 
-    .bloc {
-      width: 100%;
-      padding: 80px 40px;
-    }
+/* Wrapper principal */
+.page-wrapper {
+  background-color: white;
+}
 
-    .la-une {
-      background-color: #1a2a3a;
-    }
+/* Header */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: white;
+}
 
-    .actus {
-      background-color: #2c3e50;
-    }
+.logo-zone .logo {
+  height: 60px;
+}
 
-    .nouveautes {
-      background-color: #34495e;
-    }
+.hamburger {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
 
-    .footer {
-      background-color: #1a2a3a;
-      text-align: center;
-      padding: 40px;
-      font-size: 0.9em;
-      color: #bdc3c7;
-    }
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: #1a2a3a;
+  border-radius: 2px;
+}
 
-    h2 {
-      font-size: 2.5em;
-      color: #00bfff;
-      margin-bottom: 20px;
-    }
+/* Barre secondaire */
+.sub-bar {
+  height: 10px;
+  background-color: #1a2a3a;
+}
 
-    p {
-      font-size: 1.2em;
-      line-height: 1.6em;
-    }
+/* Menu latéral */
+.side-menu {
+  background-color: #1a2a3a;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.side-menu a {
+  color: #00bfff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.social-links img {
+  height: 24px;
+}
+
+/* Blocs de contenu */
+.bloc {
+  width: 100%;
+  padding: 80px 40px;
+}
+
+.la-une {
+  background-color: #1a2a3a;
+}
+
+.actus {
+  background-color: #2c3e50;
+}
+
+.nouveautes {
+  background-color: #34495e;
+}
+
+h2 {
+  font-size: 2.5em;
+  color: #00bfff;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+/* Footer */
+.site-footer {
+  background-color: #1a2a3a;
+  padding: 40px;
+  color: #bdc3c7;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-links a {
+  color: #bdc3c7;
+  text-decoration: none;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9em;
+}
