@@ -80,8 +80,8 @@
 }
 
 .icon-home {
-  height: 32px;
-  width: 32px;
+  height: 48px;
+  width: 48px;
   filter: brightness(120%);
   transition: transform 0.2s ease;
 }
