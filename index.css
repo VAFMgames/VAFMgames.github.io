@@ -99,12 +99,14 @@ p {
 }
 
 .vignette-actu {
-  width: 250px;
-  background-color: #34495e;
+  position: relative;
+  width: 300px; /* 🔼 Plus grand */
+  height: 200px;
   border-radius: 12px;
   overflow: hidden;
+  margin: 20px;
+  cursor: pointer;
   transition: transform 0.3s ease;
-  text-align: center;
 }
 
 .vignette-actu:hover {
@@ -113,13 +115,23 @@ p {
 
 .vignette-actu img {
   width: 100%;
-  height: 150px;
+  height: 100%;
   object-fit: cover;
   display: block;
+  filter: brightness(70%);
 }
 
-.vignette-actu h4 {
-  color: #00bfff;
+.titre-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
   padding: 10px;
-  font-size: 1em;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);
+}
+
+.titre-overlay h4 {
+  margin: 0;
+  color: #00bfff;
+  font-size: 1.1em;
 }
