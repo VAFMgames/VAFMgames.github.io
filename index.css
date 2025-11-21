@@ -67,25 +67,40 @@ p {
   width: 100%;
 }
 
-.vignette-principale {
+.vignette-une {
   position: relative;
   display: block;
   width: 100%;
-  max-width: 1200px;
+  max-width: 800px;
   border-radius: 12px;
   overflow: hidden;
   text-decoration: none;
   color: inherit;
 }
 
-.vignette-principale img {
+.vignette-une img {
   width: 100%;
   height: auto;
   display: block;
   object-fit: cover;
+  filter: brightness(70%);
 }
 
-.overlay-fondu {
+/* Titre toujours visible */
+.titre-fixe {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #00bfff;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+/* Texte qui apparaît en fondu */
+.texte-fondu {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -97,18 +112,12 @@ p {
   transition: opacity 0.4s ease;
 }
 
-.vignette-principale:hover .overlay-fondu {
+.vignette-une:hover .texte-fondu {
   opacity: 1;
 }
 
-.overlay-fondu h3 {
+.texte-fondu p {
   margin: 0;
-  font-size: 1.6em;
-  color: #00bfff;
-}
-
-.overlay-fondu p {
-  margin-top: 10px;
   font-size: 1em;
 }
 
