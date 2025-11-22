@@ -207,3 +207,8 @@ p {
 .btn-login:hover {
   background-color: #0099cc;
 }
+
+.logo {
+  height: 60px; /* 🔽 Avant : peut-être 120px ou plus */
+  width: auto;
+}
