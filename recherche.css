@@ -45,10 +45,6 @@ main {
   transition: background-color 0.3s ease;
 }
 
-.btn-search:hover {
-  background-color: #0099cc;
-}
-
 .search-icon {
   height: 60px; /* 🔽 Avant : peut-être 120px ou plus */
   width: auto;
