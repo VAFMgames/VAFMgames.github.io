@@ -82,11 +82,10 @@ p {
 }
 
 .vignette-une img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
   display: block;
-  filter: brightness(70%);
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* Titre toujours visible */
