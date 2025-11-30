@@ -41,20 +41,6 @@ p {
   flex-wrap: wrap;
 }
 
-.vignette {
-  position: relative;
-  overflow: hidden;
-  border-radius: 12px;
-}
-
-.vignette img {
-  width: 100%;
-  height: auto; /* correction */
-  object-fit: cover;
-  display: block;
-  filter: brightness(70%);
-}
-
 .overlay,
 .titre-overlay {
   position: absolute;
