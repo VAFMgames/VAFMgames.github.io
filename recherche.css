@@ -11,22 +11,16 @@ header {
   text-align: center;
 }
 
-/* Conteneur centré */
-.search-container {
-  display: flex;
-  justify-content: center;
-  margin-top: 40px;
-}
-
-/* Barre de recherche stylée */
 #search {
+  display: block;
+  margin: 40px auto;
   padding: 12px 20px;
   width: 80%;
   max-width: 500px;
   font-size: 16px;
   border: none;
   border-radius: 25px;
-  background-color: #3a6ea5; /* bleu doux */
+  background-color: #3a6ea5; /* bleu doux, différent du header */
   color: white;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   transition: box-shadow 0.3s ease;
@@ -70,4 +64,3 @@ main {
   height: 60px; /* 🔽 Avant : peut-être 120px ou plus */
   width: auto;
 }
-
